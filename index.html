@@ -1,35 +1,67 @@
 <!DOCTYPE html>
-<html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="UTF-8;" />
-  <link rel="stylesheet" href="CSS/main.css" />
-  <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="js/sweet-scroll.min.js"></script>
-  <script src="js/google-analytics.js"></script>
+<html lang="en">
   <head>
-    <body background="Logos/background.gif" />
-    <style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio Website" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <style>
       img {
         display: block;
         border: 3px solid #ffffff;
         margin-left: auto;
         border-radius: 55%;
         margin-right: auto;
-        padding: -3px;
       }
-    </style>
-    <h1>Welcome!</h1>
-    <body>
+      </style>
       <img
         src="Logos/profile.jpg"
         alt="profile"
         class="center"
         usemap="#workmap"
-        width="400px"
-        height="400px"
+        width="150"
+        height="150"
       />
-      <div id="particles-js"></div>
-    </body>
-  </head>
+      <div class="header">
+        <h1>
+          <span class="site-title">ABHISHEK MAURYA</span>
+          <span class="site-description"
+            >• Programmer • Student • </span
+          >
+        </h1>
+        <div class="header-icons">
+          <a
+            aria-label="My Github Profile"
+            target="_blank"
+            href="https://github.com/ABHISHEK-ARCEE"
+          >
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a
+            aria-label="Send Email"
+            href="janardanmaurya238@gmail.com"
+            target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll
+        ><i class="icon fa fa-chevron-down" aria-hidden="true"></i
+      ></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/sweet-scroll.min.js"></script>
+    <script src="js/google-analytics.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
