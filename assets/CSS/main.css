@@ -1,7 +1,6 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
 @import url(https://fonts.googleapis.com/css?family=Rubik);
-@import url(https://fonts.googleapis.com/css?family=Sofia&effect=fire);
 
 html {
     line-height: 1.15;
@@ -35,7 +34,6 @@ section {
 h1 {
     margin: .67em 0;
     font-size: 2.5rem;
-    text-align: center;
 }
 
 figure {
